@@ -15,3 +15,29 @@
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+.screen-header__gear {
+    position: relative;
+}
+
+.screen-header__dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    /*display: block;*/
+    /* Originally, the span can't have width and height */
+    /* but by changing display to block, it can have them */
+    /* but the display needs to be flex, so it's been commented */
+    border-radius: 3px;
+    /* to make the square shape to the circle one, you can give the half of the width/height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    /* make the number above the comment icon*/
+    /* position absolute aligns to the closest parent, this cas nav__link */
+    left: 20px;
+    bottom: 15px;
+}

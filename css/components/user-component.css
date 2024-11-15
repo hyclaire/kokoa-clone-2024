@@ -6,6 +6,7 @@
 
 .user-component {
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .user-component__avatar {
