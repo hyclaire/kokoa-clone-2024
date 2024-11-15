@@ -1,0 +1,16 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    /*display: block;*/
+    /* Originally, the span can't have width and height */
+    /* but by changing display to block, it can have them */
+    /* but the display needs to be flex, so it's been commented */
+    border-radius: 15px;
+    /* to make the square shape to the circle one, you can give the half of the width/height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}

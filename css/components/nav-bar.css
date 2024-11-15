@@ -1,0 +1,55 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    /* to make the list fixed on the bottom */
+    /* no matter how big the padding is, keep the size of the box*/
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #2e363e;
+}
+
+.nav__btn {
+    position: relative;
+}
+
+.nav__notification {
+    position: absolute;
+    /* make the number above the comment icon*/
+    /* position absolute aligns to the closest parent, this cas nav__link */
+    left: 15px;
+    bottom: 15px;
+}
+
+
+.nav__dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    /*display: block;*/
+    /* Originally, the span can't have width and height */
+    /* but by changing display to block, it can have them */
+    /* but the display needs to be flex, so it's been commented */
+    border-radius: 3px;
+    /* to make the square shape to the circle one, you can give the half of the width/height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    /* make the number above the comment icon*/
+    /* position absolute aligns to the closest parent, this cas nav__link */
+    left: 25px;
+    bottom: 30px;
+}
