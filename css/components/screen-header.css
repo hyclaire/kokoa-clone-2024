@@ -12,8 +12,29 @@
     font-weight: 600;
 }
 
+.screen-header__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__gear .fa-gear:hover {
+    animation: rotateCog 1s linear infinite;
 }
 
 .screen-header__gear {

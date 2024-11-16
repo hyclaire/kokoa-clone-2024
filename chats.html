@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
 </head>
 
 <body>
@@ -25,9 +25,10 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
             <span><i class="fa-solid fa-music fa-lg"></i></span>
             <div class="screen-header__gear">
                 <span class="screen-header__dot"></span>
@@ -36,56 +37,32 @@
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i> Friends' Names Display <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar" src="images/IMG_8792.jpg" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Nicolas</h4>
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar" src="images/IMG_8792.jpg" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">KokoaTalk</h4>
+                        <h6 class="user-component__subtitle">Please check My Kokoa Account Info</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">11:22</span>
+                    <div class="badge">1</div>
                 </div>
             </div>
-            <div></div> <!-- To create the last item-->
-        </div>
-
-
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up fa-xs"></i>
-            </div>
-        </div>
-
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar--sm" src="images/IMG_8792.jpg" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fa-solid fa-chevron-right fa-xs"></i>
-                    <!--<h6 class="user-component__subtitle">test</h6>-->
-                </div>
-            </div>
-        </div>
-
+        </a>
     </main>
 
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <span class="nav__notification badge">1</span>
-                <a class="nav__link" href="chats.html"><i class="fa-regular fa-comment fa-2x"></i></a>
+                <a class="nav__link" href="chats.html"><i class="fas fa-comment fa-2x"></i></a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
@@ -96,9 +73,7 @@
             </li>
         </ul>
     </nav>
-    <div id="splah-screen">
-        <i class="fas fa-comment"></i>
-    </div>
+
     <script src=" https://kit.fontawesome.com/3ecd974291.js" crossorigin="anonymous"></script>
 </body>
 
